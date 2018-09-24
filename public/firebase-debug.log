@@ -1,0 +1,28 @@
+[debug] [2018-09-24T18:21:47.465Z] ----------------------------------------------------------------------
+[debug] [2018-09-24T18:21:47.466Z] Command:       /usr/local/Cellar/node/10.9.0/bin/node /usr/local/bin/firebase serve
+[debug] [2018-09-24T18:21:47.467Z] CLI Version:   4.2.1
+[debug] [2018-09-24T18:21:47.467Z] Platform:      darwin
+[debug] [2018-09-24T18:21:47.467Z] Node Version:  v10.9.0
+[debug] [2018-09-24T18:21:47.467Z] Time:          Mon Sep 24 2018 13:21:47 GMT-0500 (Central Daylight Time)
+[debug] [2018-09-24T18:21:47.467Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-24T18:21:47.476Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-09-24T18:21:47.476Z] > authorizing via signed-in user
+[debug] [2018-09-24T18:21:47.477Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-09-24T18:21:47.477Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+
+[debug] [2018-09-24T18:21:47.696Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-24T18:21:47.706Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/app101-dd237  
+ 
+[debug] [2018-09-24T18:21:48.074Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-24T18:21:48.076Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/app101-dd237  
+ 
+[debug] [2018-09-24T18:21:48.820Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/jonathan/Documents/Projects/polymer/course'...
+[info] 
+[debug] [2018-09-24T18:21:48.824Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/371648347642/clients/_:getWebAppConfig  
+ 
+[debug] [2018-09-24T18:21:49.231Z] <<< HTTP RESPONSE 200
+[info] i  hosting[app101-dd237]: Serving hosting files from: public
+[info] ✔  hosting[app101-dd237]: Local server: http://localhost:5000
